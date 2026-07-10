@@ -484,8 +484,10 @@ body {
     align-items: center;
 }
 
-.footer_logo img{
-    width: 150px;
+.footer_logo i{
+    font-size:35px;
+    color:#3b82f6;
+    
 }
 
 .social_icon{
