@@ -278,3 +278,253 @@ body {
 
 
 /* pricing section end */
+
+
+/* something is missing section start */
+
+.career_section{
+
+    max-width: 1200px;
+    margin: 120px auto;
+    padding: 0 20px;
+
+}
+
+
+.career_section h2{
+
+    text-align: center;
+    font-size: 48px;
+    font-weight: 700;
+    color: #111827;
+    margin-bottom: 20px;
+
+}
+
+
+.career_subtitle{
+
+    max-width: 650px;
+    margin: 0 auto 60px;
+    text-align: center;
+    font-size: 18px;
+    line-height: 30px;
+    color: #6b7280;
+
+}
+
+
+.career_parent{
+
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 30px;
+
+}
+
+
+.career_card{
+
+    background: #ffffff;
+    padding: 35px;
+    border-radius: 18px;
+    border: 1px solid #e5e7eb;
+
+    box-shadow: 
+    0 10px 30px rgba(0,0,0,0.06);
+
+    transition: all 0.3s ease;
+
+}
+
+
+.career_card:hover{
+
+    transform: translateY(-10px);
+
+    box-shadow:
+    0 20px 40px rgba(0,0,0,0.12);
+
+}
+
+
+.company_tag{
+
+    display: inline-block;
+
+    padding: 8px 18px;
+
+    background: #111827;
+
+    color:white;
+
+    border-radius:50px;
+
+    font-size:14px;
+
+    font-weight:600;
+
+    margin-bottom:25px;
+
+}
+
+
+
+.career_card h3{
+
+    font-size:26px;
+
+    line-height:34px;
+
+    color:#111827;
+
+    margin-bottom:25px;
+
+}
+
+
+
+.career_card p{
+
+    font-size:16px;
+
+    color:#4b5563;
+
+    margin-bottom:15px;
+
+    line-height:26px;
+
+}
+
+
+
+.career_card strong{
+
+    color:#111827;
+
+}
+
+
+
+.career_card .common_btn{
+
+    width:100%;
+
+    margin-top:25px;
+
+    transition:0.3s;
+
+}
+
+
+
+.career_card .common_btn:hover{
+
+    transform:scale(1.03);
+
+}
+
+
+
+/* Tablet */
+
+@media(max-width:900px){
+
+    .career_parent{
+
+        grid-template-columns:repeat(2,1fr);
+
+    }
+
+}
+
+
+/* Mobile */
+
+@media(max-width:600px){
+
+    .career_section h2{
+
+        font-size:36px;
+
+    }
+
+
+    .career_parent{
+
+        grid-template-columns:1fr;
+
+    }
+
+
+    .career_card{
+
+        padding:25px;
+
+    }
+
+}
+
+/* something is missing section end */
+
+/* footer section start */
+
+.footer_section{
+    background-color: #0F1E33;
+    padding: 20px 0;
+    
+}
+
+.footer_parent{
+    max-width: 1200px;
+    margin: auto;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer_logo img{
+    width: 150px;
+}
+
+.social_icon{
+    display: flex;
+    gap: 20px;
+}
+
+.social_icon a{
+    width: 45px;
+    height: 45px;
+    background: #1d2f48;
+    color: white;
+    border-radius: 50%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    text-decoration: none;
+    transition: .3s;
+}
+
+.social_icon a:hover{
+    background: #2F5BEA;
+}
+
+.footer_section hr{
+    max-width: 1200px;
+    margin: 20px auto;
+    border: .5px solid #2c3d56;
+}
+
+.copyright{
+    text-align: center;
+}
+
+.copyright p{
+    color: #b8c1cc;
+    font-size: 20px;
+}
+
+/* footer section end */
