@@ -55,8 +55,59 @@ body{
     border: none;
     padding: 15px 35px;
     border-radius: 10px;
-    font-size: 16px;
+    font-size: 15px;
     font-weight: 600;
     cursor: pointer;
-    transition: 0.3s;
+    
 } 
+
+.common_btn:hover{
+    background-color: #2348c5;
+}
+
+
+/* common button style start */
+
+
+/* banner or hero section start */
+
+.banner{
+    width: 100%;
+    height: 90vh;
+
+    background-image: linear-gradient(rgba(0,0,0,.60),rgba(0,0,0,.60)),
+    url("./images/banner.jpg");
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner_overlay{
+    max-width: 850px;
+    text-align: center;
+}
+
+.banner_overlay h1{
+    color: white;
+    font-size: 75px;
+    font-weight: 700;
+    margin-bottom: 25px;
+}
+
+.banner_overlay h1 i{
+    font-style: italic;
+}
+
+.banner_overlay p{
+    color: #302f2f;
+    font-size: 20px;
+    line-height: 35px;
+    margin-bottom: 40px;
+}
+
+/* banner or hero section end */
