@@ -97,8 +97,8 @@ body {
 .banner_overlay h1{
     color: white;
     font-size: 65px;
-    font-weight: 700;
-    margin-bottom: 25px;
+    font-weight: 300;
+    margin-bottom: 20px;
 }
 
 .banner_overlay h1 i{
